@@ -9,7 +9,7 @@ Your task is to figure out how this code works.
 
 ```js
 function (animal){
-  const normalizedName = animal.toLowerCase()
+  const normalizedName = animal.toLowerCase() 
 
   if (normalizedName === "alligator"){
     return "small"
@@ -20,15 +20,15 @@ function (animal){
 ```
 
 | Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
+| "Alligator" | "small" |
+| "Lion"      |  "wide" | 
+|  "Chicken"  |  "wide" | 
 |       |        | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This function returns the string "small" if a string with "alligator" inputted (no matter how it is capitalized). The function returns the string "wide" if the inputted string is anything else. </td>
   </tr>
 </table>
 
